@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container">  
+  <form id="contact" action="insert.php" method="post">
+    <h3>Enter your name and email address</h3>
+    <fieldset>
+      <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your email address" type="email" name="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>
